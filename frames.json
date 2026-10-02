@@ -1,0 +1,15 @@
+{
+  "width":1536,"height":2288,"cellWidth":192,"cellHeight":208,"columns":8,
+  "sha256":"0e7d1a84f6d25e933e3a45dfdb858b9c263876632d83435f8aebfb031b7fcdeb",
+  "actions":[
+    {"id":"idle","label":"待机","row":0,"durations":[280,110,110,140,140,320],"loop":true},
+    {"id":"running-right","label":"向右走","row":1,"durations":[120,120,120,120,120,120,120,220],"loop":true},
+    {"id":"running-left","label":"向左走","row":2,"durations":[120,120,120,120,120,120,120,220],"loop":true},
+    {"id":"waving","label":"挥手","row":3,"durations":[140,140,140,280],"loop":false},
+    {"id":"jumping","label":"跳跃","row":4,"durations":[140,140,140,140,280],"loop":false},
+    {"id":"failed","label":"受阻","row":5,"durations":[140,140,140,140,140,140,140,240],"loop":false},
+    {"id":"waiting","label":"等待","row":6,"durations":[150,150,150,150,150,260],"loop":true},
+    {"id":"running","label":"工作 / 思考","row":7,"durations":[120,120,120,120,120,220],"loop":true},
+    {"id":"review","label":"检查","row":8,"durations":[150,150,150,150,150,280],"loop":true}
+  ]
+}

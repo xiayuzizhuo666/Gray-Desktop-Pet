@@ -1,0 +1,29 @@
+﻿Run UTC: 2026-10-02T18:27:47.6994383Z
+Version: 1.1.0.0; OS: Microsoft Windows NT 10.0.26100.0; CLR: 4.0.30319.42000
+PASS runtime frame definitions match the supplied original manifest
+PASS source SHA256, dimensions and all 73 populated / 15 empty cells
+PASS frame timing boundaries, loops and one-shot completion
+PASS 100 repeated pause / resume cycles preserve animation time
+PASS 16 gaze directions including sector interiors and wrap
+PASS multiple monitor geometry, negative coordinates, gaps and work-area edges
+PASS drag offset and click / movement distinction
+Actual window DPI: 96; PerMonitorV2: True
+PASS actual window DPI awareness and logical-to-physical size
+PASS actual Windows window: transparent, borderless, topmost and timer
+PASS right-click menu structure, open/close, size and all action commands
+PASS menu pause / resume 100 cycles and frozen frame
+PASS click / double-click decisions, drag suppression and one-shot return
+PASS walking displacement, pause and right-edge recovery
+PASS tray icon, restore, pause / resume and synchronization
+PASS native movement, monitor clamp, edge failure and return to idle
+PASS layout or DPI clamp waits for a drag to finish
+PASS exit command destroys native window and stops timer
+PASS tray exit also destroys window, timer and notification icon
+PASS repeat launch exits successfully without another window or dialog
+PASS real entry point, live duplicate launch and automatic smoke shutdown
+Assertions: 1525
+Actual monitor work areas: 0,0 1920x1200
+Limit: physical mouse input was not automated; menu events, drag model and native movement were exercised programmatically.
+Limit: click/double-click decisions were invoked inside the app; OS input delivery and hit testing remain unverified.
+Limit: negative-coordinate and multi-monitor cases used synthetic geometry; only connected displays were exercised natively.
+Limit: no live DPI setting change, mixed-DPI monitor crossing, monitor unplug, or Explorer restart was performed.

@@ -1,0 +1,291 @@
+{
+  "manifest_format": "gray-portable-assets-1.0",
+  "name": "Gray",
+  "description": "银白短发、蓝眼睛、黑色金边衣服与酒红内衬披风的简约小人",
+  "sprite_sheet": {
+    "file": "spritesheet-extended.png",
+    "mime_type": "image/png",
+    "color_mode": "RGBA",
+    "transparent_background": true,
+    "format": "ChatGPT Pets v2",
+    "sprite_version_number": 2,
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "indexing": "zero-based",
+    "origin": "top-left",
+    "frame_order": "left-to-right within each row",
+    "required_cells": 73,
+    "unused_transparent_cells": 15,
+    "cell_rectangle_rule": {
+      "x": "column * 192",
+      "y": "row * 208",
+      "width": 192,
+      "height": 208
+    },
+    "sha256": "0e7d1a84f6d25e933e3a45dfdb858b9c263876632d83435f8aebfb031b7fcdeb"
+  },
+  "standard_animations": [
+    {
+      "state": "idle",
+      "label_zh": "待机",
+      "row": 0,
+      "frame_count": 6,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preview_frame_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "state": "running-right",
+      "label_zh": "向屏幕右侧移动",
+      "row": 1,
+      "frame_count": 8,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "running-left",
+      "label_zh": "向屏幕左侧移动",
+      "row": 2,
+      "frame_count": 8,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "waving",
+      "label_zh": "挥手",
+      "row": 3,
+      "frame_count": 4,
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "jumping",
+      "label_zh": "跳跃",
+      "row": 4,
+      "frame_count": 5,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "failed",
+      "label_zh": "失败反应",
+      "row": 5,
+      "frame_count": 8,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "state": "waiting",
+      "label_zh": "等待输入或批准",
+      "row": 6,
+      "frame_count": 6,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preview_frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "state": "running",
+      "label_zh": "专注处理任务",
+      "row": 7,
+      "frame_count": 6,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "review",
+      "label_zh": "检查结果",
+      "row": 8,
+      "frame_count": 6,
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preview_frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_poses": {
+    "selection": "discrete directional poses; choose by pointer or gaze direction, not a mandatory animation loop",
+    "coordinate_system": "screen/viewer coordinates; 0 degrees is up; clockwise",
+    "row_9_degrees": [
+      0,
+      22.5,
+      45,
+      67.5,
+      90,
+      112.5,
+      135,
+      157.5
+    ],
+    "row_10_degrees": [
+      180,
+      202.5,
+      225,
+      247.5,
+      270,
+      292.5,
+      315,
+      337.5
+    ],
+    "cardinals": {
+      "up": 0,
+      "right": 90,
+      "down": 180,
+      "left": 270
+    },
+    "ordered_preview_frame_duration_ms": 160
+  },
+  "playback_notes": {
+    "timing_scope": "Durations reproduce the supplied preview profile. The PNG itself stores no animation timing; an importing application may use its own timing and state transitions.",
+    "standard_preview_loops": true,
+    "runtime_loop_policy": "Controlled by the target application, including one-shot gestures and state transitions.",
+    "unused_cells": "Columns >= frame_count on rows 0-8 are fully transparent and must not be played.",
+    "rendering": "Preserve the full 192x208 cell and a shared scale. Do not trim, stretch, recenter, or independently resize each frame."
+  },
+  "preview_files": {
+    "still": {
+      "file": "Gray-静态预览.png",
+      "source_row": 0,
+      "source_column": 0
+    },
+    "complete_gif": "Gray-完整动态预览.gif",
+    "complete_mp4": "Gray-完整动态预览.mp4",
+    "contents": "Nine standard states in row order, then sixteen look poses in clockwise order. Preview labels/background are presentation only."
+  },
+  "portability": {
+    "asset_only": true,
+    "account_migration": false,
+    "requires_new_owned_pet_on_target_account": true,
+    "target_capability_required": "A supported pet import/create feature. Desktop use also requires a compatible desktop-pet program."
+  }
+}

@@ -1,0 +1,9 @@
+/GrayPet.exe
+/test-results.txt
+/smoke-test-results.txt
+/window-render.png
+/out/
+*.log
+*.tmp
+*.user
+*.suo
